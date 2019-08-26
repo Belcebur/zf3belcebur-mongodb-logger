@@ -1,7 +1,7 @@
 {
     "name": "zf3belcebur/mongodb-logger",
     "description": "MongoDb Logger integration to ZF3",
-    "type": "",
+    "type": "library",
     "require": {
         "php": "^7.1",
         "zendframework/zend-log": "^2.0",
