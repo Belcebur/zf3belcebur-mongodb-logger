@@ -27,7 +27,7 @@ class Module implements DependencyIndicatorInterface
 
     public function getConfig(): array
     {
-        return include __DIR__ . '/../config/zf3belcebur-mongodb-logger.global.php.dist';
+        return include __DIR__ . '/../config/module.config.php';
     }
 
     public function onBootstrap(MvcEvent $mvcEvent): void
