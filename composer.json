@@ -1,0 +1,19 @@
+{
+    "name": "zf3belcebur/mongodb-logger",
+    "description": "MongoDb Logger integration to ZF3",
+    "type": "",
+    "require": {
+        "php": "^7.1",
+        "zendframework/zend-log": "^2.0",
+        "ext-mongodb": "^1.0",
+        "zendframework/zend-mvc": "^3.0"
+    },
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "David Garcia",
+            "email": "garcia.gordo.david@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
