@@ -4,8 +4,8 @@
     "type": "library",
     "require": {
         "php": "^7.1",
+      "alcaeus/mongo-php-adapter": "^1.0",
         "zendframework/zend-log": "^2.0",
-        "ext-mongodb": "^1.0",
         "zendframework/zend-mvc": "^3.0"
     },
     "license": "Apache-2.0",
