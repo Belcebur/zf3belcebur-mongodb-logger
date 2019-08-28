@@ -4,15 +4,21 @@
     "type": "library",
     "require": {
         "php": "^7.1",
-      "alcaeus/mongo-php-adapter": "^1.0",
+        "alcaeus/mongo-php-adapter": "^1.0",
         "zendframework/zend-log": "^2.0",
         "zendframework/zend-mvc": "^3.0"
+    },
+    "suggest": {
+        "zf3belcebur/doctrine-orm-resources": "DoctrineORM Resources to ZF3",
+        "zf3belcebur/materialize-css-helper": "MaterializeCss Helper integration to ZF3",
+        "zf3belcebur/oauth2-social-client": "ZF3 extends module from thephpleague/oauth2-client"
     },
     "license": "Apache-2.0",
     "authors": [
         {
             "name": "David Garcia",
-            "email": "garcia.gordo.david@gmail.com"
+            "email": "garcia.gordo.david@gmail.com",
+            "homepage": "https://github.com/Belcebur"
         }
     ],
     "minimum-stability": "stable",
